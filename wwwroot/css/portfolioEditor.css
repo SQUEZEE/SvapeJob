@@ -1,0 +1,25 @@
+.imgAndName {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    align-items: center;
+    border-radius: 5px;
+}
+.profileAbout {
+    border-radius: 5px;
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+}
+.profileKeySkills {
+    
+border-radius: 5px;
+background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+}
+.profileAbout .label,  .profileKeySkills .label{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

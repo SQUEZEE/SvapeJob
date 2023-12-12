@@ -1,0 +1,86 @@
+
+.formNAvigationBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.formNAvigationBtn {
+    cursor: pointer;
+    transition: all 150ms ease;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+border-radius: 5px;
+
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+line-height: normal;
+width: 49%;
+}
+.formNAvigationBtn:hover{
+    filter: brightness(1.1);
+}
+.formNAvigationBtn.back {
+    background: #BDBDBD;
+}
+.formNAvigationBtn.forward {
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    min-height: 24px;
+}
+.selectRoleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 350px;
+    justify-content: space-around;
+}
+.selectRoleBtn {
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    cursor: pointer;
+    transition: all 150ms ease;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+border-radius: 5px;
+max-height: 100px;
+text-align: center;
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+line-height: normal;
+width: 100%;
+}
+.selectRoleBtn:hover{
+    filter: brightness(1.1);
+}
+.formItem{
+    display: none;
+}
+.formItem.active{
+    display: block;
+}
+.formInput select{
+    width: 100%;
+    border-radius: 5px;
+border: 1px solid #BDBDBD;
+background-color: white;
+padding: 15px 18px;
+color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+outline: none;
+line-height: normal;
+}

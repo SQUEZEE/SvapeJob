@@ -1,0 +1,2130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+html, body{
+    color: #12151B;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+height: 100%;
+line-height: normal;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: none;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+@media(max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: none;
+    }
+}
+.mainWrapper{
+    flex: 1 1 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+header{
+    background-color: #fff;
+    height: 64px;
+}
+.logo{
+    margin-bottom: -4px;
+}
+.bottom-header{
+    height: 48px;
+    background-color: #12151B;
+}
+.bottom-header .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+.bottom-headerBtn{
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    transition: all 150ms ease;
+
+}
+.bottom-headerBtn:hover{
+    opacity: 0.85;
+}
+.profileControlPanel {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.profileControlBtn{
+    color: #12151B;
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+.profileControlBtn:hover{
+    color: #599DE9;
+}
+.profileControlLine {
+    width: 2px;
+height: 45px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 20%, #12151B 50%, rgba(0, 0, 0, 0.00) 80%);
+}
+.main-with-video{
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+}
+.main-with-video .container{
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.mainVideo{
+    z-index: -1;
+    width: auto;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0;
+    margin: 0;
+}
+.brightnessBlock{
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mainLabel {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: left;
+max-width: 550px;
+}
+.mainList {
+}
+.mainList ul{
+    margin-left: 30px;
+}
+.main-with-video-content{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.mainList ul li{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main-with-videoBtnsBlock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.main-with-videoBtn {
+    
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+cursor: pointer;
+font-weight: 700;
+line-height: normal;
+padding: 15px 20px;
+transition: all 150ms ease;
+border-radius: 5px;
+}
+.main-with-videoBtn.GREENBTN {
+    
+    background: linear-gradient(97deg, #FF2832 -10.33%, #FF038C 105.39%);
+
+}
+.main-with-videoBtn.GREENBTN:hover{
+    opacity: 0.85;
+}
+.main-with-videoBtn.BRIGHTNESSBTN {
+    padding: 14px 19px;
+
+border: 1px solid #FFF;
+background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(255, 255, 255, 0.60) 100%);
+}
+.main-with-videoBtn.BRIGHTNESSBTN:hover{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 100%, rgba(255, 255, 255, 0.60) 100%);
+}
+.mainBorder{
+    height: 1px;
+    background-color: #A7A7A7;
+    
+}
+.mainBasicBlock{
+    padding: 30px 0;
+    
+    
+}
+.mainBasicBlock.msuLabel{
+    display: flex;
+    gap: 25px;
+    padding: 11px 0;
+    align-items: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+main{
+    background-color: #12151B;
+}
+.mainBasicBlock.industryBlock {
+}
+.industryBlockLabel {color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.industryBlockSubLabel {color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.industryBlockIndustries {
+    margin-top: 45px;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.industryBlockIndustry {
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #599DE9;
+    width: 270px;
+    height: 380px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.industryBlockIndustry img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+
+    transform: translate(-50%, -50%);
+
+}
+.industryBlockIndustry.vertical img{
+    height: auto;
+    width: 100%;
+}
+.industryBlockIndustry .label{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.industryBlockIndustry .visualBtn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding: 3px 10px;
+    position: absolute;
+    background-color: #fff;
+    left: 15px;
+    bottom: 15px;
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    color: #000;
+    border-radius: 5px;
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.industryBlockIndustry .visualBtn .showText{
+    display: none;
+    color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.waterBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.waterBlock .logo img {
+    height: 48px;
+    display: block;
+}
+.waterItem {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+gap: 15px;
+}
+.waterItem img{
+    height: 25px;
+}
+.mapBlock {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.mapItem {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.mapItem .label {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mapItem .subItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mapItem .subItems .subItem {
+    transition: all 150ms ease;
+    cursor: pointer;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.mapItem .subItems .subItem:hover{
+    opacity: 0.8;
+}
+footer{
+    background-color: #12151B;
+}
+footer .container{
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomFooter{
+    background-color: #12151B;
+}
+.bottomFooter .container{
+    color: rgba(255, 255, 255, 0.50);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+height: 100%;
+padding: 16px 16px;
+}
+.profileBg{
+    background-color: #000;
+    min-height: 225px;
+    max-height: 225px;
+    position: relative;
+    overflow: hidden;
+}
+.profileBg img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    opacity: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+}
+.profileBlock {
+    
+    margin-top: -37px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.imgBlock {
+    border: 4px solid #FFF;
+    flex: none;
+    left: 27px;
+    top: -75px;
+    position: absolute;
+    width: 142px;
+    height: 142px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imgBlock img{
+    border-radius: 50%;
+    
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}.imgBlock .pictureSelectBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    padding: 0 10px;
+    background: #727272;
+    background-position: 50% 50%;
+    background-size: auto 50%;
+    height: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}.imgBlock .pictureSelectBtn img{
+    width: 50px;
+    height: 50px;
+    transform: none;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.container.profileContainer{
+    display: flex;
+
+}
+.container.profileContainer .leftBlock{
+    min-width: 68%;
+}
+.container.profileContainer .rightBlock{
+    min-width: 32%;
+}
+.profileBlockShell{
+    align-items: center;
+    margin-top: -140px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.imgAndName .editInputBlock .editInputLabel{
+    background-color: transparent;
+}
+.imgAndName .editInputBlock{
+    background-color: transparent;
+    width: calc(100% - 10px);
+    margin: 5px 0;
+    border: none;
+}
+.imgAndName .editInputBlock input{
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 3px 10px;
+    width: calc(100% - 40px);
+}
+.imgAndName input{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    height: 100%;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 3px 10px;
+    width: calc(100% - 35px);
+    outline: none
+    ;
+    border: none;
+    margin-bottom: 5px ;
+}
+.imgAndName select{
+    border-radius: 5px;
+    padding: 2px 10px;
+    width: calc(100% - 10px);
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+  color: #000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+}
+.profileName {color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Profession {
+    display: flex;
+    align-items: center;
+    gap: 7px;color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Profession img{
+    display: block;
+    height: 27px;
+}
+.aboutAndKeySkills {
+    padding: 25px;
+    width: calc(100% - 50px);
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profileAbout .editBigInputBlock textarea{
+    padding: 10px;
+    font-weight: 500;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.profileKeySkills .editBigInputBlock textarea{
+    padding: 10px;
+    font-weight: 500;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.profileKeySkills .editBigInputBlock .editBigInputLabel{
+    background-color: transparent;
+}
+.profileKeySkills .editBigInputBlock{
+    border: none;
+}
+
+.profileAbout .editBigInputBlock .editBigInputLabel{
+    background-color: transparent;
+}
+.profileAbout .editBigInputBlock{
+    border: none;
+}
+.profileAbout .label,  .profileKeySkills .label{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.profileKeySkills {
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+.profileAbout {
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    max-width: 50%;}
+.profileMain{
+    padding-bottom: 35px;
+    background-color: #fff;
+}
+.profileContactsBlock {
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 0;
+}
+.profileContactsBlock .label {
+    margin-bottom: 6px;
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.profileSocialsBlock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileSocial {
+}
+.profileNumberBlock {
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.contactBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 18px 0;
+border-radius: 5px;
+background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+transition: all 150ms ease;
+}
+.contactBtnWithInput{
+    border-radius: 5px;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 15px;
+}
+.contactBtnWithInput .input{
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);    border-radius: 0 0 5px 5px;
+}
+.contactBtnWithInput .input input{
+    width: calc(100% - 38px);
+    margin: 4px;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    color: black;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.contactBtnWithInput .contactBtn{
+    border-radius: 5px 5px 0 0;
+    filter: none;
+}
+.contactBtn:hover{
+    opacity: 0.8;
+}
+.profileWorksBlock {
+    position: relative;
+    margin-top: 21px;
+    border-radius: 5px;
+background-color: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+
+}
+.worksBlockBg {
+    
+    border-radius: 5px;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+.worksBlockBg img{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.worksBlockBg .label {
+    z-index: 1;
+    top: 12px;
+    left: 57px;
+    position: absolute;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.worksBlockContent {
+    padding: 0 20px;
+    position: absolute;
+    top: 54px;
+    justify-content: center;
+    gap: 15px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workBlock{
+    position: relative;
+    cursor: pointer;
+    min-height: 266px;
+    max-height: 266px;
+    max-width: 210px;
+    color: #335A86;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    padding: 15px;
+    border-radius: 5px;
+border: 1px solid #EEE;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: all 150ms ease;
+}
+.workBlock a{
+    display: flex;
+flex-direction: column;
+gap: 10px;
+height: 100%;
+    color: #335A86;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.workBlock .cross{
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px;
+    background-color: rgba(114, 114, 114, 0.50);
+    transition: all 150ms ease;
+}
+.workBlock .cross:hover{
+    opacity: 0.8;
+}
+.workBlock.newWorkBlock .addImageBtn{
+
+    border-radius: 50%;
+    background-color: #727272;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 0 10px;
+    width: 130px;
+    height: 150px;
+    margin: 0 30px;
+    line-height: normal;
+}
+.workBlock.newWorkBlock .addImageBtn img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.workBlock:hover{
+    filter: brightness(1.1);
+}
+
+.workBlock a .workImgBlock img{
+   
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+.workBlock a .workImgBlock{
+    min-width: 211px;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.educationAndSkillsBlock {
+    margin: 26px 0 0 26px;
+    border-radius: 5px;
+background: #FFF;
+width: calc(100% - 26px);
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+
+}
+.educationAndSkillsBlock .educationBlockBg {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.educationAndSkillsBlock .educationBlockBg img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+}
+.educationAndSkillsBlock .educationBlockBg .label{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    position: absolute;
+    top: 12px;
+    z-index: 1;
+    left: 25px;
+}
+.educationBlock {
+    padding: 0 10px;
+}
+.profileEducation {
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.profileEducation img{
+    max-height: 35px;
+    max-width: 35px;
+    
+    display: block;
+}
+.educationProfession {
+    margin-top: 10px;
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.skillsBlock {
+    padding: 0 10px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.skillsBlock .label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.skillsBlock .label img{
+    
+    display: block;
+}
+.skillsBlock .skills {
+    margin-left: 40px;
+}
+.skillsBlock .skills .skill {
+    margin-top: 10px;
+    color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.editInputBlock {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+border: 2px solid #12151B;
+background: #FFF;
+}
+.editInputBlock input{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    height: 100%;
+    color: black;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.editInputLabel {
+    padding: 2px 5px;
+    
+    background-color: #12151B;color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 4px;
+}
+.editBigInputBlock {
+    border: 2px solid #12151B;
+    border-radius: 5px;
+    position: relative;
+}
+.editBigInputBlock .cross{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    height: 25px;
+    background-color: rgba(114, 114, 114, 0.50);
+    border-radius: 5px;
+    transition: all 150ms ease;
+    cursor: pointer;
+}
+.editBigInputBlock .cross:hover{
+    opacity: 0.8;
+}
+.editBigInputBlock input{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+
+    color: black;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 100%;
+}
+.editBigInputBlock textarea{
+    width: 250px;
+    resize: none;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+
+    color: black;
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.editBigInputLabel {
+    color: #FFF;
+    padding: 5px 10px;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+background-color: black;
+border-radius: 4px;
+}
+.createContactInputBlock{
+    border: 2px solid #12151B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.createContactInputBlock .selectBlock{
+    background-color: black;
+    width: 30%;
+    border-radius: 4px;
+    
+}
+.createContactInputBlock .selectBlock select{
+    
+    margin: 0;
+    padding: 6px 0;
+    outline: none;
+    border: none;
+color: white;
+    background-color: black;
+width: 100%;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.createContactInputBlock input{
+    
+    margin: 0;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+
+    color: black;
+width: calc(70% - 55px);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.addElementBtn{
+    cursor: pointer;
+    transition: all 150ms ease;
+    color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+user-select: none;
+}
+.addElementBtn:hover{
+    opacity: 0.8;
+}
+.createContactInputBlock .cross{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.educationInputBlock{
+    position: relative;
+    margin-top: 15px;
+}.educationInputBlock .cross{
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ right: 10px;
+ height: 35px;
+ background-color: rgba(114, 114, 114, 0.50);
+ border-radius: 5px;
+ transition: all 150ms ease;
+ cursor: pointer;
+ z-index: 1;
+}
+.educationInputBlock .cross:hover{
+    opacity: 0.8;
+}
+.formMain {
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 610px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: -113px;
+    z-index: 2;
+    position: relative;
+    border-radius: 5px;
+background-color: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.formHeader {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.formHeader img{
+    height: 56px;
+    margin-bottom: -4px;
+    display: block;
+}
+.formHeader .label {
+    display: flex;
+    flex-direction: column;
+}
+.formHeader .label .firstLabel {
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.formHeader .label .secondLabel {
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.formHeader .label .secondLabel a{
+    color: #FF038C;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+padding: 0;
+}
+.formRow{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+}
+.formInputLabel{
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.formInput{
+width: 100%;
+margin-top: 6px;
+}
+.formInput input{
+    width: calc(100% - 36px);
+    border-radius: 5px;
+border: 1px solid #BDBDBD;
+background-color: white;
+padding: 15px 18px;
+color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+outline: none;
+line-height: normal;
+}
+.passwordRechangeBtn{
+    display: block;
+    color: #FF038C;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: right;
+width: 100%;
+padding: 0;
+margin: 0;
+margin-top: 6px;
+}
+.submitBtn {
+    margin-top: 35px;
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);    min-height: 24px;
+}
+.cancelBtn {
+    background: #BDBDBD;
+
+    margin-top: 14px;
+    margin-bottom: 65px;
+}
+.formBtn{
+    cursor: pointer;
+    transition: all 150ms ease;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+border-radius: 5px;
+
+box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+line-height: normal;
+width: 100%;
+}
+.formBtn:hover{
+    filter: brightness(1.1);
+}
+.submitBtnBlockEP {
+    display: flex;
+    padding: 20px 0;
+}
+.submitBtnEP {
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 5px;
+background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 18px 90px;
+}
+.loadingGifInLoginBtn{
+    width: 100%;
+    height: 100%;
+
+}
+.formBtnShell{
+    position: relative;
+
+}
+.loadingLayer{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+.loadingLayer img{
+    height: 54px;
+    z-index: 9999;
+}
+.profileControlPanel.mobilePanel{
+    display: none;
+}
+.burgerMenu {
+    overflow: auto;
+    position: relative;
+    display: block;
+    width: 30px;
+    min-width: 30px;
+    height: 20px;
+}
+
+    .burgerMenu:after,
+    .burgerMenu:before {
+        content: '';
+        background-color: #FF2832;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+
+    .burgerMenu:after {
+        bottom: 0;
+    }
+
+    .burgerMenu:before {
+        top: 0;
+    }
+
+    .burgerMenu span {
+        background-color: #FF2832;
+        position: absolute;
+        left: 0;
+        top: 9px;
+        height: 2px;
+        width: 100%;
+        transition: all 0.3s ease;
+    }
+
+    .burgerMenu.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .burgerMenu.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .burgerMenu.active span {
+        transform: scale(0);
+    }
+    .burgerDropDown {
+        overflow: auto;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        height: 1080px;
+        z-index: 49;
+        background-color: #fff;
+        border-top: black 4px solid;
+        display: none;
+    }
+    .burgerDropDownInner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .formBtn.mobileMenuBtn.submitBtn{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+    .formBtn.mobileMenuBtn.cancelBtn{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+    .mobileMenuBtns {
+        
+        padding: 0 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mobileMenuBtns .mobileMenuBtn {
+
+        font-size: 27px;
+    }
+    #submitBtnBlockEP2{
+        display: none;
+    }
+    .addWorkInputs{
+        border-radius: 5px;
+        background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    }
+    .addWorkInputs .editBigInputBlock{
+        border-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .addWorkInputs .editBigInputBlock .editBigInputLabel{
+        background-color: transparent;
+    }
+    .addWorkInputs .editBigInputBlock:last-child input{
+        margin-bottom: 5px;
+    }
+    .addWorkInputs .editBigInputBlock input{
+        width: calc(100% - 30px);
+        
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 3px 10px;
+    }
+    .workBlock.newWorkBlock:not(#addWorkBtn) .addImageBtn{
+        min-width: 126px;
+        max-width: 126px;
+        min-height: 126px;
+        max-height: 126px;
+        margin: 0 35px;
+    }
+    .mainMain {
+        margin-top: -112px;
+        z-index: 999;
+        background-color: transparent;
+        margin-bottom: 20px;
+    }
+    .mainMain .container{
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainLeft {
+        width: calc(30.5% - 58px);
+    }
+    .mainItem {
+        padding: 29px;
+        border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .mainRight {
+        width: calc(67.8% - 58px);
+    }
+    .mainLeftHeader {
+
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo .avatar {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50% ;
+    }
+    .mainLeftHeader .line{
+        width: 100%;
+        height: 1px;
+background: #E2E2E2;
+margin: 20px 0 11px 0;
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo .avatar img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo .nameAndProfession {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo .nameAndProfession .name {
+        color: #000;
+        width: 230px;
+        height: 25px;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+    }
+    .mainLeftHeader .mainLeftHeaderUserInfo .nameAndProfession .profession {
+        width: 225px;
+        height: 20px;
+        color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient: vertical;
+    }
+    .mainLeftBtns {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .mainLeftBtn {
+        cursor: pointer;
+        padding: 3px 10px;
+        transition: all 100ms ease;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .mainLeftBtn:hover{
+        background: rgba(217, 217, 217, 0.38);
+    }
+    .mainRightLabel {
+        color: #000;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .mainRightChatList {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainRightChatList .line{
+        width: 100%;
+        height: 1px;
+background: #E2E2E2;
+    }
+    .mainRightChatList .chatBlock {
+        transition: all 100ms ease;
+        cursor: pointer;
+        display: flex ;
+        align-items: center;
+        justify-content: space-between;
+        padding: 23px 10px;
+        border-radius: 5px;
+    }
+    .mainRightChatList .chatBlock:hover{
+        background: rgba(217, 217, 217, 0.38);
+
+
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg .avatar {
+        width: 60px;
+        height: 60px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50% ;
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg .avatar img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg .name-Profession-LastMsg {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg .name-Profession-LastMsg .name-Profession {
+        color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient: vertical;
+width: 500px;
+    }
+    .mainRightChatList .chatBlock .avatar-Name-Proffesion-LastMsg .name-Profession-LastMsg .lastMsg {
+        color: rgba(0, 0, 0, 0.50);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient: vertical;
+width: 230px;
+    }
+    .mainRightChatList .chatBlock .dateAndTime {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainRightChatList .chatBlock .dateAndTime .date {
+        color: rgba(0, 0, 0, 0.50);
+text-align: right;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .mainRightChatList .chatBlock .dateAndTime .time {
+        color: rgba(0, 0, 0, 0.50);
+text-align: right;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .chatHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .chatHeader .backBtn {
+        display: flex;
+        align-items: center;
+        color: #000;
+        transition: all 100ms ease;
+        border-radius: 5px;
+        padding: 5px 10px 5px 0;
+    }
+    .chatHeader .backBtn:hover {
+        display: flex;
+        align-items: center;
+        color: #000;
+        background-color: #fff;
+        background: rgba(217, 217, 217, 0.38);
+    }
+    .chatHeader .name-Profession {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chatHeader .name-Profession .name {
+        color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .chatHeader .name-Profession .profession {
+        color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .chatHeader .avatar {
+        min-width: 50px;
+        min-height: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50% ;
+    }
+    .chatHeader .avatar img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .chatMsgs {
+        overflow: auto;
+        height: 200px;
+        flex: 1 1 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .chatMsgs .chatMsg {
+        display: flex;
+        gap: 15px;
+    }
+    .chatMsgs .chatMsg .avatar {
+        min-width: 50px;
+        min-height: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50% ;
+    }
+    .chatMsgs .chatMsg .avatar img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .chatMsgs .chatMsg .nameAndMessage {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .chatMsgs .chatMsg .nameAndMessage .name {
+        color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .chatMsgs .chatMsg .nameAndMessage .message {
+        color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+    }
+    .sendMessageBlock {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .sendMessageInput {
+        border-radius: 5px;
+        background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+width: calc(100% - 54px);
+    }
+    .sendMessageInput input{
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: calc(100% - 34px);
+        color: black;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+        padding: 5px 10px;
+        margin: 7px;
+    }
+    .sendMessageBtn {
+        cursor: pointer;
+        transition: all 100ms ease;
+    }
+    .sendMessageBtn:hover{
+        opacity: 0.8;
+    }
+    .sendMessageBtn img{
+        width: 35px;
+        height: 35px;
+    }
+@media(max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+    .mainRight.mainItem{
+        width: calc(60% - 58px);
+    }
+    .mainLeft.mainItem{
+        width: calc(38% - 58px);
+    }
+}
+
+@media(max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+    .editBigInputBlock textarea {
+        width: 180px;}
+        .profileKeySkills .editBigInputBlock textarea {
+            width: 203px;}
+        .profileBlockShell {
+            align-items: flex-end;
+            
+        }
+        .imgAndName {
+            margin-right: 15px;}
+            .worksBlockBg img{
+                height: 100%;
+                width: auto;
+            }
+    .profession {
+    flex-direction: column;}
+    .profession .editBigInputLabel {
+        width: calc(100% - 20px);}
+        .editBigInputBlock input {
+            height: 2em;
+            
+        }
+    .addWorkInputs .editBigInputBlock input{
+        padding: 0 10px;
+    }
+    
+}
+@media(max-width:767px){
+    .profileContactsBlock a{
+        width: calc(100% - 25px);
+    }
+    .contactBtn {
+        width: 100%;
+    }
+    .educationAndSkillsBlock {
+        margin: 26px 0 0 0;
+        width: 100%;
+    }
+    .createContactInputBlock .selectBlock select {
+        padding: 6px 15px;
+        width: calc(100% - 30px);}
+    .profileContactsBlock {
+        align-items: baseline;
+    }
+    .profileContactsBlock .editBigInputBlock{
+
+    }
+    #submitBtnBlockEP1{
+        display: none;
+    }
+    #submitBtnBlockEP2{
+        display: flex;
+align-items: center;
+    }
+    
+    .container.profileContainer {
+        flex-direction: column;}
+    .formHeader{
+        width: 90%;
+    }
+    .formRow{
+        width: 90%;
+    }
+    .bottom-header{
+        display: none;
+    }
+    .profileControlPanel{
+        display: none;
+
+    }
+    .profileControlPanel.mobilePanel{
+        display: block;
+    }
+    .container{
+        max-width: none;
+    }
+}
+@media(max-width: 605px){
+    .createContactInputBlock .selectBlock select {
+        padding: 6px 0px;
+        width: 100%}
+    .formHeader{
+        gap: 25px;
+        
+        flex-direction: column;
+    }
+}
+@media(max-width: 542px){
+    .profession {
+        /* text-align: revert; */
+        flex-direction:unset
+    }
+    .profileBlockShell {
+        align-items: center;
+    }
+    .editInputBlock input {
+        width: calc(100% - 68px);}
+    .imgAndName {
+        margin-top: 80px;
+        margin-right: 0;
+        width: calc(100% - 50px);
+    
+    }
+    .submitBtnEP {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 0;
+        width: 100%;
+    }    
+    .editBigInputBlock .profession{
+        flex-direction: column;
+    }
+}
+@media(max-width: 505px){
+    .profileAbout {
+        max-width: none;
+    }
+    .aboutAndKeySkills {
+        gap: 20px;
+        flex-direction: column;}
+        .editBigInputBlock textarea,.profileKeySkills .editBigInputBlock textarea {
+            width: calc(100% - 30px);
+        }
+}
+.educationsTable, .skillsTable, .socialsTable {
+    display: flex;
+    flex-direction: column;
+}
+.skillsTable {
+    margin-top: 20px;
+}
+.educationBlock .label{
+    margin-top: 20px;
+}
+.educationsTable .label,.skillsTable .label,.socialsTable .label {
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialsTable .label{
+    margin-bottom: 0;
+}
+
+.skillsTable .label{
+    justify-content: center;
+}
+.skillsTable .tabelItems .tableItem input{
+    width: calc(100% - 20px);
+}
+.socialsTable{
+    width: calc(100% - 20px);
+}
+.socialsTable .tabelItems .tableItem input{
+    width: calc(70% - 20px);
+}
+.socialsTable .tabelItems .tableItem select{
+    border-radius: 5px;
+    width: calc(30% - 20px);
+    margin: 5px 10px;
+    padding: 0;
+    min-height: 36.4px;
+    outline: none;
+    border: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.subLabel {
+    color: white;
+    font-size: 19px;
+}
+.tabelItems {
+    display: flex;
+    flex-direction: column;
+}
+.tableItem {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+    position: relative;
+}
+.tableItem input{
+    margin: 5px 10px;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    color: black;
+    width: calc(49% - 20px);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.tableItem .line {
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+
+
+}
+.tableItem .cross{
+    width: 37px;
+    height: 37px;
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 10px;
+    border-radius: 4px;
+    background-color: rgba(114, 114, 114, 0.50);
+    transition: all 150ms ease;
+    cursor: pointer;
+}
+.tableItem .cross:hover{
+    opacity: 0.8;
+}
+.addItemToTableBtn {
+    color: white;
+    font-size: 19px;
+    background: linear-gradient(91deg, #FF2832 0%, #FF038C 100%);
+
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px 10px 5px;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+.addItemToTableBtn:hover{
+    filter: brightness(1.1);
+}
+.vacancyBlock{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-width: 180px;
+}
+.vacancyBlock .name{
+    color: #335A86;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.vacancyBlock .points{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.vacancyBlock .points .point{
+display: flex;
+flex-direction: column;
+gap: 3px;
+}
+.vacancyBlock .points .point .label{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.vacancyBlock .points .point .value{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.concidencesBlock {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.concidenceBlock {
+    transition: all 100ms ease;
+    opacity: 0.9;
+    cursor: pointer;
+    position: relative;
+    min-width: 90px;
+    max-width: 90px;
+    min-height: 120px;
+    max-height: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.concidenceBlock:hover{
+    opacity: 1;
+}
+.concidenceBlock .concidenceBcImage {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("../img/Artist.png");
+    filter: blur(35px);
+    -webkit-filter: blur(2px);
+    border-radius: 5px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.concidenceBlock .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}

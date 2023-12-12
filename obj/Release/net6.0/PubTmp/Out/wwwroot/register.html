@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SvapeJob</title>
+    <link rel="icon" type="image/x-icon" href="img/SJLOGO.png">
+    <link rel="stylesheet" href="css/stylesheets.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src=”js/bordercoloranimate/bordercoloranimate.min.js”></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="burgerDropDown basicBlock">
+                <div class="burgerDropDownInner">
+                    
+                    <div class="mobileLoginRegisterBlock">
+                        <a href="register.html">
+                            <div class="formBtn mobileMenuBtn submitBtn">Регистрация</div>
+                        </a>
+                        <a href="login.html">
+                            <div class="formBtn mobileMenuBtn cancelBtn">Войти</div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="container">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="img/SJLOGO.png">
+                    </div>
+                </a>
+                <div class="profileControlPanel mobilePanel">
+                    <div class="burgerMenu">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="profileControlPanel">
+
+                    <a href="portfolioEditor.html">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Мое портфолио
+                        </div>
+                    </a>
+                        
+                    
+                    
+                    <div class="profileControlLine logining" style="display: none;"></div>
+                    <a href="logout">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Выйти
+                        </div>
+                    </a>
+                    <a href="login.html">
+                        <div class="profileControlBtn">
+                            
+                            Войти
+                        
+                        </div>
+                    </a>
+                    
+                    <div class="profileControlLine"></div>
+                    <a href="register.html">
+                        <div class="profileControlBtn">
+                            Регистрация
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="profileBg">
+            <img src="img/ProfileBgDefault.png">
+        </div>    
+        <main class="formMain">
+            <div class="container">
+                <div class="formBlock">
+                    <div class="formHeader">
+                        <img src="img/SJLOGO.png">
+                        <div class="label">
+                            <div class="firstLabel">Регистрация в SvapeJob</div>
+                            <div class="secondLabel">Уже зарегистрированы? <a href="login.html">Войдите!</a></div>
+                        </div>
+                    </div>
+                    <div class="formRow" id="emailConfirmationBlock" style="display: none;">
+                        <div class="formInputLabel">Код подтверждения на E-Mail:</div>
+                        <div class="formInput"><input id="emailConfirmationInput" placeholder="Введите код подтверждения..." type="text"></div>
+                        
+                        <div class="formBtnShell">
+                            <div class="loadingLayer"><img src="img/circle_loading.gif" alt=""></div>
+                            <div class="formBtn submitBtn" id="emailConfirmationBtn">Подтвердить</div>
+                        </div>
+                    </div>
+                    <div class="formRow" id="fullRegisterBlock">
+                        <div class="formItem" style="display: block;">
+                            <div class="selectRoleBlock">
+                                <div class="selectRoleBtn" id="registerForWorker">Регистрация для работника</div>
+                                <div class="selectRoleBtn" id="registerForOrganization">Регистрация для организации</div>
+                            </div>
+                        </div>
+                        <div class="registerItemsForWorker" style="display: none;">
+                            <div class="formItem" id="formItem-1">
+                                <div class="formInputLabel">ФИО:</div>
+                                <div class="formInput"><input id="userNameInput" placeholder="Введите свое ФИО..." type="text"></div>
+                                <div class="formInputLabel" style="margin-top: 20px;">Дата рождения:</div>
+                                <div class="formInput"><input id="dateOfBirthInput" type="date"></div>
+                                <div style="margin-top: 20px;" class="formInputLabel">Стаж работы:</div>
+                                <div class="formInput"><input id="experienceInput" placeholder="Введите ваш стаж..." type="text"></div>
+                            </div>
+                            <div class="formItem" id="formItem-2">
+                                <div class="formInputLabel">Специальность:</div>
+                                <div class="formInput"><input id="forFinderOptionInput" list="workerProfessionList" placeholder="Введите свою специальность..." type="text"></div>
+                                <datalist id="workerProfessionList">
+                                    <option value="Программист"></option>
+                                    <option value="Художник"></option>
+                                    <option value="Вор"></option>
+                                </datalist>
+                                <div class="formInputLabel" style="margin-top: 20px;">Ищу работу в отрасли:</div>
+                                <div class="formInput"><input id="findOptionInput" list="workerProfessionFindList" placeholder="Ищу работу в отрасли..." type="text"></div>
+                                <datalist id="workerProfessionFindList">
+                                    <option value="IT"></option>
+                                    <option value="Металлургия"></option>
+                                    <option value="Промышленность"></option>
+                                </datalist>
+                            </div>
+                            <div class="formItem" id="formItem-3">
+                                <div class="formInputLabel">E-Mail:</div>
+                                <div class="formInput"><input id="emailInput" placeholder="Введите ваш EMail..." type="text"></div>
+                                <div class="formInputLabel" style="margin-top: 20px;">Логин:</div>
+                                <div class="formInput"><input id="loginInput" placeholder="Введите ваш Логин..." type="text"></div>
+                                <div style="margin-top: 20px;" class="formInputLabel">Пароль:</div>
+                                <div class="formInput"><input id="passwordInput" placeholder="Введите ваш пароль..." type="text"></div>
+                                <a class="passwordRechangeBtn" href="passwordRechange">Забыли ваш пароль?</a>
+                                <div class="formBtnShell">
+                                    <div class="loadingLayer"><img src="img/circle_loading.gif" alt=""></div>
+                                    <div class="formBtn submitBtn" id="loginBtn">
+                                        Зарегистрироваться
+                                    </div>
+                                </div>
+                                
+                                <div class="formBtn cancelBtn">Отмена</div>
+                            </div>
+                        </div>
+                        <div class="registerItemsForOrganization" style="display: none;">
+                            <div class="formItem" id="formItem-1">
+                                <div class="formInputLabel">Название предприятия:</div>
+                                <div class="formInput"><input id="userNameInput" placeholder="Введите название..." type="text"></div>
+                                
+                                <div style="margin-top: 20px;" class="formInputLabel">Кол-во лет на рынке:</div>
+                                <div class="formInput"><select id="experienceInput">
+                                    <option value="До 1-го года.">До 1-го года.</option>
+                                    <option value="1-3 года.">1-3 года.</option>
+                                    <option value="3-5 лет.">3-5 лет.</option>
+                                    <option value="5-10 лет.">5-10 лет.</option>
+                                    <option value="Свыше 10-ти лет.">Свыше 10-ти лет.</option>
+                                </select></div>
+                            </div>
+                            <div class="formItem" id="formItem-2">
+                                <div class="formInputLabel" style="margin-top: 20px;">Отрасль:</div>
+                                <div class="formInput"><input id="forFinderOptionInput" list="organizationIndustryList" placeholder="Введите отрасль..." type="text"></div>
+                                <datalist id="organizationIndustryList">
+                                    <option value="IT"></option>
+                                    <option value="Металлургия"></option>
+                                    <option value="Промышленность"></option>
+                                </datalist>
+                                <div class="formInputLabel" style="margin-top: 20px;">Ищем работников по специальности:</div>
+                                <div class="formInput"><input id="findOptionInput" list="organizationProfessionFindList" placeholder="Ищем работников по специальности..." type="text"></div>
+                                <datalist id="organizationProfessionFindList">
+                                    <option value="Программист"></option>
+                                    <option value="Художник"></option>
+                                    <option value="Электрик"></option>
+                                </datalist>
+                            </div>
+                            <div class="formItem" id="formItem-3">
+                                <div class="formInputLabel">E-Mail:</div>
+                                <div class="formInput"><input id="emailInput" placeholder="Введите ваш EMail..." type="text"></div>
+                                <div class="formInputLabel" style="margin-top: 20px;">Логин:</div>
+                                <div class="formInput"><input id="loginInput" placeholder="Введите ваш Логин..." type="text"></div>
+                                <div style="margin-top: 20px;" class="formInputLabel">Пароль:</div>
+                                <div class="formInput"><input id="passwordInput" placeholder="Введите ваш пароль..." type="text"></div>
+                                <a class="passwordRechangeBtn" href="passwordRechange">Забыли ваш пароль?</a>
+                                <div class="formBtnShell">
+                                    <div class="loadingLayer"><img src="img/circle_loading.gif" alt=""></div>
+                                    <div class="formBtn submitBtn" id="loginBtn">
+                                        Зарегистрироваться
+                                    </div>
+                                </div>
+                                
+                                <div class="formBtn cancelBtn">Отмена</div>
+                            </div>
+                        </div>
+                        
+                        <div class="formNAvigationBtns" style="display: none;">
+                            <div class="formNAvigationBtn back">
+                                &#60; Назад
+                            </div>
+                            <div class="formNAvigationBtn forward">
+                                Далее >
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="mainBorder"></div>
+        
+        <footer>
+            <div class="container">
+                <div class="waterBlock">
+                    <div class="logo">
+                        <img src="img/logoWhite.png">
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water1.png">
+                        Russia / Русский
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water2.png">
+                        Доступность
+                    </div>
+                </div>
+                <div class="mapBlock">
+                    <div class="mapItem">
+                        <div class="label">
+                            О нас
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">О проекте</div>
+                            <div class="subItem">Разработчики</div>
+                        </div>
+                    </div>
+                    <div class="mapItem">
+                        <div class="label">
+                            Карта сайта
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">Войти</div>
+                            <div class="subItem">Регистрация</div>
+                            <div class="subItem">Создать портфолио</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mainBorder"></div>
+        <div class="bottomFooter">
+            <div class="container">
+                Folio - это сервис онлайн-портфолио на котором каждый человек способен абсолютно бесплатно создать портфолио для своих клиентов или работодателей.
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jqueryColor.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

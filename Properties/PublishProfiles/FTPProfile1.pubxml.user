@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAud7sR6zhgEqcajfXgueqEAAAAAACAAAAAAAQZgAAAAEAACAAAABhiFecm6hWYJKKIKm3pApRZ1DpzI+WZaaf0+9kTWpIGAAAAAAOgAAAAAIAACAAAAC4yoO4icXECKuzny8h9LdcqOOBUQVPiBuH3jTF2UBxZzAAAAAUPuPYM0TBB5rli/Qd9krPKbpQGwIWPoN2zNy62mPgiriXie81gutWo4LF4WXVuYNAAAAAWvA/g5V6hn7cEhKLsPBOg1ZJBWSpz2vraScVoGIBUXaz5ls9sA7xz7WX3r/ZxYyDPb6SFDgMkkI8dsCykDwYww==</EncryptedPassword>
+    <History>True|2023-12-07T16:48:31.7266091Z;True|2023-12-07T11:00:17.8897240+03:00;False|2023-12-07T10:45:15.1014661+03:00;False|2023-12-07T10:43:54.5461214+03:00;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>ftp://win5011.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>09/25/2023 23:33:00</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>09/25/2023 23:33:00</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>10/19/2021 14:53:34</publishTime>
+    </File>
+    <File Include="Folio.deps.json">
+      <publishTime>12/07/2023 19:38:37</publishTime>
+    </File>
+    <File Include="Folio.dll">
+      <publishTime>12/07/2023 19:38:36</publishTime>
+    </File>
+    <File Include="Folio.exe">
+      <publishTime>12/07/2023 19:38:36</publishTime>
+    </File>
+    <File Include="Folio.pdb">
+      <publishTime>12/07/2023 19:38:36</publishTime>
+    </File>
+    <File Include="Folio.runtimeconfig.json">
+      <publishTime>12/07/2023 02:19:01</publishTime>
+    </File>
+    <File Include="MailKit.dll">
+      <publishTime>03/26/2022 18:44:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>11/18/2021 06:38:20</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>08/15/2022 20:29:26</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>08/15/2022 20:29:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>08/15/2022 20:30:18</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>08/15/2022 20:30:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>01/14/2022 22:54:16</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/20/2020 00:51:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>03/30/2021 22:40:56</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>03/30/2021 22:42:38</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>03/30/2021 22:46:46</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>03/30/2021 22:58:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>03/30/2021 22:52:10</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 11:36:56</publishTime>
+    </File>
+    <File Include="MimeKit.dll">
+      <publishTime>03/26/2022 18:01:10</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 10:09:54</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 11:56:36</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:38</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 21:13:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 11:54:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll">
+      <publishTime>11/15/2019 11:54:20</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 11:54:30</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 02:59:34</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 11:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 11:53:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 11:37:04</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>09/18/2018 22:38:14</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>03/30/2021 22:39:30</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 11:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 11:37:42</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>11/15/2019 11:56:44</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 11:56:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/07/2023 19:38:56</publishTime>
+    </File>
+    <File Include="wwwroot/chat.html">
+      <publishTime>12/07/2023 19:21:12</publishTime>
+    </File>
+    <File Include="wwwroot/chats.html">
+      <publishTime>12/07/2023 19:21:21</publishTime>
+    </File>
+    <File Include="wwwroot/css/adaptSwipes.css">
+      <publishTime>12/07/2023 19:29:35</publishTime>
+    </File>
+    <File Include="wwwroot/css/portfolioEditor.css">
+      <publishTime>12/07/2023 01:21:59</publishTime>
+    </File>
+    <File Include="wwwroot/css/register.css">
+      <publishTime>12/07/2023 01:14:10</publishTime>
+    </File>
+    <File Include="wwwroot/css/stylesheets.css">
+      <publishTime>12/07/2023 01:17:40</publishTime>
+    </File>
+    <File Include="wwwroot/css/swipe.css">
+      <publishTime>12/05/2023 01:06:17</publishTime>
+    </File>
+    <File Include="wwwroot/guests.html">
+      <publishTime>12/07/2023 19:21:28</publishTime>
+    </File>
+    <File Include="wwwroot/img/acceptBtn.png">
+      <publishTime>11/26/2023 15:49:22</publishTime>
+    </File>
+    <File Include="wwwroot/img/Artist.png">
+      <publishTime>09/18/2023 22:43:32</publishTime>
+    </File>
+    <File Include="wwwroot/img/backImg.png">
+      <publishTime>11/22/2023 21:33:34</publishTime>
+    </File>
+    <File Include="wwwroot/img/circle_loading.gif">
+      <publishTime>10/18/2023 20:25:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/cross.png">
+      <publishTime>09/24/2023 01:27:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/denyBtn.png">
+      <publishTime>11/26/2023 15:49:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/education.png">
+      <publishTime>09/22/2023 23:26:42</publishTime>
+    </File>
+    <File Include="wwwroot/img/fb-social.png">
+      <publishTime>09/22/2023 00:06:52</publishTime>
+    </File>
+    <File Include="wwwroot/img/gh-social.png">
+      <publishTime>09/22/2023 00:07:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/guestsIcon.png">
+      <publishTime>12/07/2023 02:17:27</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo.png">
+      <publishTime>09/18/2023 20:59:09</publishTime>
+    </File>
+    <File Include="wwwroot/img/logoWhite.png">
+      <publishTime>09/19/2023 23:53:08</publishTime>
+    </File>
+    <File Include="wwwroot/img/main-with-video.mp4">
+      <publishTime>09/14/2023 23:47:20</publishTime>
+    </File>
+    <File Include="wwwroot/img/messangerIcon.png">
+      <publishTime>12/07/2023 02:16:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/msuLogo.png">
+      <publishTime>09/18/2023 22:14:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/Other.png">
+      <publishTime>09/18/2023 22:45:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/phone.png">
+      <publishTime>09/22/2023 00:08:27</publishTime>
+    </File>
+    <File Include="wwwroot/img/Photograph.png">
+      <publishTime>09/18/2023 22:33:28</publishTime>
+    </File>
+    <File Include="wwwroot/img/plus.png">
+      <publishTime>09/24/2023 01:25:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/ProfileBgDefault.png">
+      <publishTime>09/21/2023 23:17:42</publishTime>
+    </File>
+    <File Include="wwwroot/img/profileIcon.png">
+      <publishTime>12/07/2023 02:16:34</publishTime>
+    </File>
+    <File Include="wwwroot/img/Programmer.png">
+      <publishTime>09/18/2023 22:44:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/programmerIcon.png">
+      <publishTime>09/21/2023 23:46:15</publishTime>
+    </File>
+    <File Include="wwwroot/img/sendMessageBtn.png">
+      <publishTime>12/07/2023 01:16:15</publishTime>
+    </File>
+    <File Include="wwwroot/img/SJLOGO.png">
+      <publishTime>12/07/2023 01:03:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/skills.png">
+      <publishTime>09/22/2023 23:19:33</publishTime>
+    </File>
+    <File Include="wwwroot/img/swipesIcon.png">
+      <publishTime>12/07/2023 02:17:14</publishTime>
+    </File>
+    <File Include="wwwroot/img/testImg.jpg">
+      <publishTime>09/13/2023 21:23:01</publishTime>
+    </File>
+    <File Include="wwwroot/img/tg-social.png">
+      <publishTime>09/22/2023 00:06:13</publishTime>
+    </File>
+    <File Include="wwwroot/img/twitter-social.png">
+      <publishTime>09/22/2023 00:06:33</publishTime>
+    </File>
+    <File Include="wwwroot/img/upload.png">
+      <publishTime>09/23/2023 00:04:58</publishTime>
+    </File>
+    <File Include="wwwroot/img/vk-social.png">
+      <publishTime>09/22/2023 00:05:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/water1.png">
+      <publishTime>09/19/2023 23:53:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/water2.png">
+      <publishTime>09/19/2023 23:54:09</publishTime>
+    </File>
+    <File Include="wwwroot/img/workExample.png">
+      <publishTime>09/22/2023 00:30:39</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>12/07/2023 19:21:03</publishTime>
+    </File>
+    <File Include="wwwroot/js/adaptSwipes.js">
+      <publishTime>12/07/2023 00:08:25</publishTime>
+    </File>
+    <File Include="wwwroot/js/bordercoloranimate.min.js">
+      <publishTime>03/22/2017 15:36:07</publishTime>
+    </File>
+    <File Include="wwwroot/js/chat.js">
+      <publishTime>12/07/2023 00:42:36</publishTime>
+    </File>
+    <File Include="wwwroot/js/chats.js">
+      <publishTime>12/05/2023 00:04:20</publishTime>
+    </File>
+    <File Include="wwwroot/js/editProfile.js">
+      <publishTime>12/04/2023 02:29:10</publishTime>
+    </File>
+    <File Include="wwwroot/js/guests.js">
+      <publishTime>12/05/2023 01:09:05</publishTime>
+    </File>
+    <File Include="wwwroot/js/index.js">
+      <publishTime>12/07/2023 01:27:00</publishTime>
+    </File>
+    <File Include="wwwroot/js/jquery.js">
+      <publishTime>09/18/2023 21:25:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/jqueryColor.js">
+      <publishTime>09/25/2023 00:57:40</publishTime>
+    </File>
+    <File Include="wwwroot/js/login.js">
+      <publishTime>10/18/2023 21:06:14</publishTime>
+    </File>
+    <File Include="wwwroot/js/portfolio.js">
+      <publishTime>12/02/2023 19:43:07</publishTime>
+    </File>
+    <File Include="wwwroot/js/register.js">
+      <publishTime>12/07/2023 02:01:50</publishTime>
+    </File>
+    <File Include="wwwroot/js/slick.min.js">
+      <publishTime>10/03/2017 20:49:29</publishTime>
+    </File>
+    <File Include="wwwroot/js/swipe.js">
+      <publishTime>12/07/2023 19:03:37</publishTime>
+    </File>
+    <File Include="wwwroot/login.html">
+      <publishTime>12/07/2023 19:21:34</publishTime>
+    </File>
+    <File Include="wwwroot/portfolio.html">
+      <publishTime>12/07/2023 19:21:49</publishTime>
+    </File>
+    <File Include="wwwroot/portfolioEditor.html">
+      <publishTime>12/07/2023 19:33:27</publishTime>
+    </File>
+    <File Include="wwwroot/register.html">
+      <publishTime>12/07/2023 19:21:43</publishTime>
+    </File>
+    <File Include="wwwroot/swipe.html">
+      <publishTime>12/07/2023 19:31:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

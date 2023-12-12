@@ -1,0 +1,273 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\chat.html",
+      "PackagePath": "staticwebassets\\chat.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\chats.html",
+      "PackagePath": "staticwebassets\\chats.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\css\\adaptSwipes.css",
+      "PackagePath": "staticwebassets\\css\\adaptSwipes.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\css\\portfolioEditor.css",
+      "PackagePath": "staticwebassets\\css\\portfolioEditor.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\css\\stylesheets.css",
+      "PackagePath": "staticwebassets\\css\\stylesheets.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\css\\swipe.css",
+      "PackagePath": "staticwebassets\\css\\swipe.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\guests.html",
+      "PackagePath": "staticwebassets\\guests.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\Artist.png",
+      "PackagePath": "staticwebassets\\img\\Artist.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\Other.png",
+      "PackagePath": "staticwebassets\\img\\Other.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\Photograph.png",
+      "PackagePath": "staticwebassets\\img\\Photograph.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\ProfileBgDefault.png",
+      "PackagePath": "staticwebassets\\img\\ProfileBgDefault.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\Programmer.png",
+      "PackagePath": "staticwebassets\\img\\Programmer.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\SJLOGO.png",
+      "PackagePath": "staticwebassets\\img\\SJLOGO.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\acceptBtn.png",
+      "PackagePath": "staticwebassets\\img\\acceptBtn.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\backImg.png",
+      "PackagePath": "staticwebassets\\img\\backImg.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\circle_loading.gif",
+      "PackagePath": "staticwebassets\\img\\circle_loading.gif"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\cross.png",
+      "PackagePath": "staticwebassets\\img\\cross.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\denyBtn.png",
+      "PackagePath": "staticwebassets\\img\\denyBtn.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\education.png",
+      "PackagePath": "staticwebassets\\img\\education.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\fb-social.png",
+      "PackagePath": "staticwebassets\\img\\fb-social.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\gh-social.png",
+      "PackagePath": "staticwebassets\\img\\gh-social.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\guestsIcon.png",
+      "PackagePath": "staticwebassets\\img\\guestsIcon.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\logoWhite.png",
+      "PackagePath": "staticwebassets\\img\\logoWhite.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\main-with-video.mp4",
+      "PackagePath": "staticwebassets\\img\\main-with-video.mp4"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\messangerIcon.png",
+      "PackagePath": "staticwebassets\\img\\messangerIcon.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\msuLogo.png",
+      "PackagePath": "staticwebassets\\img\\msuLogo.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\phone.png",
+      "PackagePath": "staticwebassets\\img\\phone.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\plus.png",
+      "PackagePath": "staticwebassets\\img\\plus.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\profileIcon.png",
+      "PackagePath": "staticwebassets\\img\\profileIcon.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\programmerIcon.png",
+      "PackagePath": "staticwebassets\\img\\programmerIcon.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\sendMessageBtn.png",
+      "PackagePath": "staticwebassets\\img\\sendMessageBtn.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\skills.png",
+      "PackagePath": "staticwebassets\\img\\skills.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\swipesIcon.png",
+      "PackagePath": "staticwebassets\\img\\swipesIcon.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\testImg.jpg",
+      "PackagePath": "staticwebassets\\img\\testImg.jpg"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\tg-social.png",
+      "PackagePath": "staticwebassets\\img\\tg-social.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\twitter-social.png",
+      "PackagePath": "staticwebassets\\img\\twitter-social.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\upload.png",
+      "PackagePath": "staticwebassets\\img\\upload.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\vk-social.png",
+      "PackagePath": "staticwebassets\\img\\vk-social.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\water1.png",
+      "PackagePath": "staticwebassets\\img\\water1.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\water2.png",
+      "PackagePath": "staticwebassets\\img\\water2.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\img\\workExample.png",
+      "PackagePath": "staticwebassets\\img\\workExample.png"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\adaptSwipes.js",
+      "PackagePath": "staticwebassets\\js\\adaptSwipes.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\bordercoloranimate.min.js",
+      "PackagePath": "staticwebassets\\js\\bordercoloranimate.min.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\chats.js",
+      "PackagePath": "staticwebassets\\js\\chats.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\editProfile.js",
+      "PackagePath": "staticwebassets\\js\\editProfile.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\guests.js",
+      "PackagePath": "staticwebassets\\js\\guests.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\jqueryColor.js",
+      "PackagePath": "staticwebassets\\js\\jqueryColor.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\portfolio.js",
+      "PackagePath": "staticwebassets\\js\\portfolio.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\js\\swipe.js",
+      "PackagePath": "staticwebassets\\js\\swipe.js"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\portfolio.html",
+      "PackagePath": "staticwebassets\\portfolio.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\portfolioEditor.html",
+      "PackagePath": "staticwebassets\\portfolioEditor.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "D:\\MyProjects\\Folio\\Folio\\wwwroot\\swipe.html",
+      "PackagePath": "staticwebassets\\swipe.html"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Folio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Folio.props",
+      "PackagePath": "build\\Folio.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Folio.props",
+      "PackagePath": "buildMultiTargeting\\Folio.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Folio.props",
+      "PackagePath": "buildTransitive\\Folio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SvapeJob</title>
+    <link rel="icon" type="image/x-icon" href="img/SJLOGO.png">
+    <link rel="stylesheet" href="css/stylesheets.css">
+    <link rel="stylesheet" href="css/portfolioEditor.css">
+    <link rel="stylesheet" href="css/adaptSwipes.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="burgerDropDown basicBlock">
+                <div class="burgerDropDownInner">
+                    
+                    <div class="mobileLoginRegisterBlock">
+                        <a href="register.html">
+                            <div class="formBtn mobileMenuBtn submitBtn">Регистрация</div>
+                        </a>
+                        <a href="login.html">
+                            <div class="formBtn mobileMenuBtn cancelBtn">Войти</div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="container">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="img/SJLOGO.png">
+                    </div>
+                </a>
+                <div class="profileControlPanel mobilePanel">
+                    <div class="burgerMenu">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="profileControlPanel">
+
+                    <a href="portfolioEditor.html">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Мое портфолио
+                        </div>
+                    </a>
+                        
+                    
+                    
+                    <div class="profileControlLine logining" style="display: none;"></div>
+                    <a href="logout">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Выйти
+                        </div>
+                    </a>
+                    <a href="login.html">
+                        <div class="profileControlBtn">
+                            
+                            Войти
+                        
+                        </div>
+                    </a>
+                    
+                    <div class="profileControlLine"></div>
+                    <a href="register.html">
+                        <div class="profileControlBtn">
+                            Регистрация
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="profileBg">
+            <img src="img/ProfileBgDefault.png">
+        </div>    
+        <main class="profileMain">
+            <form style="display: none;" action="" method="post" enctype="multipart/form-data">
+                <input type="file" id="selectAvatarInput" name="avatar" />
+                <input type="submit">
+            </form>
+            <div class="container profileContainer">
+                <div class="leftBlock">
+                    <div class="profileBlock">
+                        <div class="imgBlock">
+                            <div class="pictureSelectBtn" id="selectAvatar">
+                                Загрузить фото
+                                <img src="img/upload.png" alt="">
+                            </div>
+                        </div>
+                        <div class="profileBlockShell">
+                            <div class="imgAndName">
+                                <div class="editInputBlock">
+                                    <div class="editInputLabel">ФИО:</div>
+                                    <input type="text">
+                                </div>
+                                
+                                    <input  type="text" list="forFinderOptionList">
+                                <datalist id="forFinderOptionList">
+                                    <option value="Металлургия"></option>
+                                </datalist>
+                                
+                                
+                            </div>
+                            <div class="aboutAndKeySkills">
+                                <div class="profileAbout">
+                                    <div class="editBigInputBlock">
+                                        <div class="editBigInputLabel">О себе:</div>
+                                        <textarea></textarea>
+                                    </div>
+                                </div>
+                                <div class="profileKeySkills">
+                                    <div class="editBigInputBlock">
+                                        <div class="editBigInputLabel">Ключевые навыки:</div>
+                                        <textarea></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="profileWorksBlock" id="profileWorksBlockForWorker">
+
+                        <div class="worksBlockBg">
+                            
+                            <div class="label">Работы:</div>
+                            <img src="img/ProfileBgDefault.png" alt="">
+                        </div>
+                        <div class="worksBlockContent">
+                            
+                            
+                            <div class="workBlock newWorkBlock" id="addWorkBtn">
+                                <div class="addImageBtn">
+                                    Добавить работу
+                                    <img src="img/plus.png" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="profileWorksBlock" id="profileWorksBlockForOrganization">
+
+                        <div class="worksBlockBg">
+                            
+                            <div class="label">Вакансии:</div>
+                            <img src="img/ProfileBgDefault.png" alt="">
+                        </div>
+                        <div class="worksBlockContent">
+                            
+                            
+                            <div class="workBlock newWorkBlock" id="addVacancyBtn">
+                                <div class="addImageBtn">
+                                    Добавить вакансию
+                                    <img src="img/plus.png" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="submitBtnBlockEP" id="submitBtnBlockEP1">
+                        <div class="submitBtnEP">Сохранить ></div>
+                    </div>
+                </div>
+                <div class="rightBlock">
+                    <div class="profileContactsBlock">
+                        <div class="label">Контакты:</div>
+                        
+                        
+                        <div class="socialsTable">
+                            <div class="label">
+                                <div class="subLabel">Соц-сеть</div>
+                                <div class="subLabel">Ссылка</div>
+                            </div>
+                            <div class="tabelItems">
+                            </div>
+                            <div class="addItemToTableBtn" id="addSocialBtn">
+                                Добавить соц-сеть +
+                            </div>
+                        </div>
+                        <div class="contactBtnWithInput" style="display: none;">
+                            <div class="contactBtn">Связаться ></div>
+                            <div class="input">
+                                <input placeholder="Ссылка..." type="text">
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="educationAndSkillsBlock">
+                        <div class="educationBlockBg">
+                            <div class="label">Образование и навыки:</div>
+                            <img src="img/ProfileBgDefault.png" alt="">
+                        </div>
+                        <div class="educationBlock">
+                            
+                            <div class="label">Образование:</div>
+                            <div class="educationsTable">
+                                <div class="label">
+                                    <div class="subLabel">Название УО</div>
+                                    <div class="subLabel">Специальность</div>
+                                </div>
+                                <div class="tabelItems"></div>
+                                <div class="addItemToTableBtn" id="addEducationBtn">
+                                    Добавить образование +
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skillsBlock">
+                            <div class="label">
+                                <img src="img/skills.png" alt="">
+                                Навыки:
+                            </div>
+                            <div class="skillsTable">
+                                <div class="label">
+                                    <div class="subLabel">Название навыка</div>
+                                </div>
+                                <div class="tabelItems">
+                                </div>
+                                <div class="addItemToTableBtn" id="addSkillBtn">
+                                    Добавить навык +
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submitBtnBlockEP" id="submitBtnBlockEP2">
+                        <div class="submitBtnEP">Сохранить ></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </main>
+        <div class="mainBorder"></div>
+        <div class="containerTabBar">
+            <div class="tabbar tab-style2">
+                <ul class="flex-center">
+                  <li linkTo="portfolioEditor.html" class="home active" data-where="home"><span class="material-icons-outlined">
+                      account_circle
+                    </span></li>
+                  <li linkTo="chats.html" class="products" data-where="products"><span class="material-icons-outlined">
+                      chat
+                    </span></li>
+                  <li linkTo="swipe.html" class="services" data-where="services"><span class="material-icons-outlined">
+                      swipe
+                    </span></li>
+                  <li linkTo="guests.html" class="about" data-where="about"><span class="material-icons-outlined">
+                      group
+                    </span></li>
+                  <li linkTo="index.html?redirect=redirect" class="help" data-where="help"><span class="material-icons-outlined">
+                      home
+                    </span></li>
+                </ul>
+              </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="waterBlock">
+                    <div class="logo">
+                        <img src="img/SJLOGO.png">
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water1.png">
+                        Russia / Русский
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water2.png">
+                        Доступность
+                    </div>
+                </div>
+                <div class="mapBlock">
+                    <div class="mapItem">
+                        <div class="label">
+                            О нас
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">О проекте</div>
+                            <div class="subItem">Разработчики</div>
+                        </div>
+                    </div>
+                    <div class="mapItem">
+                        <div class="label">
+                            Карта сайта
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">Войти</div>
+                            <div class="subItem">Регистрация</div>
+                            <div class="subItem">Создать портфолио</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mainBorder"></div>
+        <div class="bottomFooter">
+            <div class="container">
+                SvapeJob - это не просто поиск работы, это путешествие к успешной и увлекательной карьере, начинающееся с единственного свайпа!            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/editProfile.js"></script>
+    <script type="text/javascript" src="js/adaptSwipes.js"></script>
+</body>
+</html>

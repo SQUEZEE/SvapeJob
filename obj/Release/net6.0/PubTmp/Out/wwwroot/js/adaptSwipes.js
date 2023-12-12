@@ -1,0 +1,43 @@
+const uls = document.querySelectorAll("ul");
+var CLICKEDLINK;
+function linkTo(){
+  document.location.href = document.location.protocol + "//" + document.location.host + "/" + CLICKEDLINK;
+}
+uls.forEach((ul) => {
+  const resetClass = ul.parentNode.getAttribute("class");
+  const lis = ul.querySelectorAll("li");
+
+  lis.forEach((li) => {
+    li.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const target = e.currentTarget;
+
+      if (
+        target.classList.contains("active") ||
+        target.classList.contains("follow")
+      ) {
+        return;
+      }
+
+      ul.parentNode.setAttribute(
+        "class",
+        `${resetClass} ${target.getAttribute("data-where")}-style`
+      );
+
+      lis.forEach((item) => clearClass(item, "active"));
+
+      setClass(target, "active");
+      CLICKEDLINK = target.getAttribute("linkTo");
+      setTimeout(linkTo, 500);
+    });
+  });
+});
+
+function clearClass(node, className) {
+  node.classList.remove(className);
+}
+
+function setClass(node, className) {
+  node.classList.add(className);
+}

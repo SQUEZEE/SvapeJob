@@ -1,0 +1,188 @@
+.mainRight.mainItem{
+    position: relative;
+    background-color: black;
+}
+.mainRightBcImage {
+    width: 100%;
+    background-image: url("../img/Artist.png");
+
+  /* Add the blur effect */
+    filter: blur(35px);
+    -webkit-filter: blur(35px);
+    border-radius: 5px;
+    /* Full height */
+    height: 100%;
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainRightSwipeContent {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.mainRightSwipe {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+}
+.swipeImgBlock {
+    flex: 1 1 auto;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0;
+}
+.swipeImgBlock img{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0%;
+}
+.mainRightSwipe .userNameBlock {
+    padding: 0 20px;
+    padding-top: 20px;
+}
+.userNameBlock .name {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.userNameBlock .profession {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.mainRightSwipe .btnsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 56px;
+    padding-top: 20px;
+}
+.mainRightSwipe .btnsBlock div img{
+    height: 66px;
+}
+.mainRightSwipe .btnsBlock .denyBtn {
+}
+.mainRightSwipe .btnsBlock .acceptBtn {
+}
+.mainRightSwipe .dropUpMenu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.mainRightSwipe .dropUpMenu .dropUpBtn {
+    width: 100%;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainRightSwipe .dropUpMenu .dropUpBtn img{
+    height: 30px;
+    transform: rotate(90deg);
+    transition: all 400ms ease;
+}
+.mainRightSwipe .dropUpMenu .dropUpBtn img.rotate{
+    transform: rotate(270deg);
+}
+.mainRightSwipe .dropUpMenu .dropUpContent {
+    display: none;
+    width: calc(100% - 30px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mainRightSwipe .dropUpMenu .dropUpContent .dropUpContentItem {
+    font-size: 12px;
+}
+.mainRightSwipe .dropUpMenu .dropUpContent .dropUpContentItem .label {
+    font-weight: 600;
+    font-size: 16px;
+}
+.mainRightSwipe .dropUpMenu .dropUpContent .dropUpContentItem.aboutUser {
+}
+.mainRightSwipe .dropUpMenu .dropUpContent .dropUpContentItem.keySkills {
+}
+.mainRightSwipe .dropUpMenu .dropUpContent .dropUpContentItem.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.swipeSlider{
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+}
+.swipeSliderSlide{
+}
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    height: 100%;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    height: 100%;
+}
+/* Слайд */
+.slick-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    display: none;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SvapeJob</title>
+    <link rel="icon" type="image/x-icon" href="img/SJLOGO.png">
+    <link rel="stylesheet" href="css/stylesheets.css">
+    <link rel="stylesheet" href="css/swipe.css">
+    <link rel="stylesheet" href="css/adaptSwipes.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="burgerDropDown basicBlock">
+                <div class="burgerDropDownInner">
+                    
+                    <div class="mobileLoginRegisterBlock">
+                        <a href="register.html">
+                            <div class="formBtn mobileMenuBtn submitBtn">Регистрация</div>
+                        </a>
+                        <a href="login.html">
+                            <div class="formBtn mobileMenuBtn cancelBtn">Войти</div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="container">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="img/SJLOGO.png">
+                    </div>
+                </a>
+                <div class="profileControlPanel mobilePanel">
+                    <div class="burgerMenu">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="profileControlPanel">
+
+                    <a href="portfolioEditor.html">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Мое портфолио
+                        </div>
+                    </a>
+                        
+                    
+                    
+                    <div class="profileControlLine logining" style="display: none;"></div>
+                    <a href="logout">
+                        <div class="profileControlBtn logining" style="display: none;">
+                            Выйти
+                        </div>
+                    </a>
+                    <a href="login.html">
+                        <div class="profileControlBtn">
+                            
+                            Войти
+                        
+                        </div>
+                    </a>
+                    
+                    <div class="profileControlLine"></div>
+                    <a href="register.html">
+                        <div class="profileControlBtn">
+                            Регистрация
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="profileBg">
+            <img src="img/ProfileBgDefault.png">
+        </div>    
+        <main class="mainMain">
+            <div class="container">
+                <div class="mainLeft mainItem">
+                    <div class="mainLeftHeader">
+                        <div class="mainLeftHeaderUserInfo">
+                            <div class="avatar"><img src="" alt=""></div>
+                            <div class="nameAndProfession">
+                                <div class="name"></div>
+                                <div class="profession"></div>
+                            </div>
+                            
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="mainLeftBtns">
+                        <a href="portfolioEditor.html">
+                            <div class="mainLeftBtn">
+                                <img src="img/profileIcon.png" alt="">
+                                Мой профиль
+                            </div>
+                        </a>
+                        
+                        <a href="chats.html">
+                            <div class="mainLeftBtn">
+                                <img src="img/messangerIcon.png" alt="">
+                                Мессенджер
+                            </div>
+                        </a>
+                        <a href="swipe.html">
+                            <div class="mainLeftBtn">
+                                <img src="img/swipesIcon.png" alt="">
+                                Свайпы
+                            </div>
+                        </a>
+                        
+                        <a href="guests.html">
+                            <div class="mainLeftBtn">
+                                <img src="img/guestsIcon.png" alt="">
+                                Гости
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mainRight mainItem">
+                    <div class="mainRightBcImage"></div>
+                    <div class="mainRightSwipeContent">
+                        <div class="swipeSlider">
+                            <div class="swipeSliderSlide"></div>
+                            <div class="swipeSliderSlide look">
+                                <div class="mainRightSwipe">
+                                    <div class="swipeImgBlock"><img src="img/Artist.png" alt=""></div>
+                                    <div class="userNameBlock">
+                                        <div class="name">Константин</div>
+                                        <div class="profession">Программист</div>
+                                    </div>
+                                    <div class="btnsBlock">
+                                        <div class="denyBtn">
+                                            <img src="img/denyBtn.png" alt="">
+                                        </div>
+                                        <div class="acceptBtn">
+                                            <img src="img/acceptBtn.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="dropUpMenu">
+                                        <div class="dropUpBtn"><img src="img/backImg.png" alt=""></div>
+                                        <div class="dropUpContent" style="display:none">
+                                            <div class="name dropUpContentItem">
+                                            
+                                            </div>
+                                            <div class="keySkills dropUpContentItem">
+                                                <div class="label">
+                                                   
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="aboutUser dropUpContentItem">
+                                                <div class="label">
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swipeSliderSlide"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <div class="mainBorder"></div>
+        <div class="containerTabBar">
+            <div class="tabbar tab-style2">
+                <ul class="flex-center">
+                  <li linkTo="portfolioEditor.html" class="home" data-where="home"><span class="material-icons-outlined">
+                      account_circle
+                    </span></li>
+                  <li linkTo="chats.html" class="products" data-where="products"><span class="material-icons-outlined">
+                      chat
+                    </span></li>
+                  <li linkTo="swipe.html" class="services active" data-where="services"><span class="material-icons-outlined">
+                      swipe
+                    </span></li>
+                  <li linkTo="guests.html" class="about" data-where="about"><span class="material-icons-outlined">
+                      group
+                    </span></li>
+                  <li linkTo="index.html?redirect=redirect" class="help" data-where="help"><span class="material-icons-outlined">
+                      home
+                    </span></li>
+                </ul>
+              </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="waterBlock">
+                    <div class="logo">
+                        <img src="img/SJLOGO.png">
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water1.png">
+                        Russia / Русский
+                    </div>
+                    <div class="waterItem">
+                        <img src="img/water2.png">
+                        Доступность
+                    </div>
+                </div>
+                <div class="mapBlock">
+                    <div class="mapItem">
+                        <div class="label">
+                            О нас
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">О проекте</div>
+                            <div class="subItem">Разработчики</div>
+                        </div>
+                    </div>
+                    <div class="mapItem">
+                        <div class="label">
+                            Карта сайта
+                        </div>
+                        <div class="subItems">
+                            <div class="subItem">Войти</div>
+                            <div class="subItem">Регистрация</div>
+                            <div class="subItem">Создать портфолио</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="mainBorder"></div>
+        <div class="bottomFooter">
+            <div class="container">
+                SvapeJob - это не просто поиск работы, это путешествие к успешной и увлекательной карьере, начинающееся с единственного свайпа!            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/adaptSwipes.js"></script>
+</body>
+</html>
