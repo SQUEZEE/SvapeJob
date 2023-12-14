@@ -83,6 +83,8 @@ app.MapGet("nulled", async (ApplicationContext db) =>
     }
     await db.SaveChangesAsync();
 });
+
+
 app.MapGet("getMyConcidences", [Authorize] async (ApplicationContext db, HttpContext context) =>
 {
 var name = context.User.FindFirst(ClaimTypes.Name);
@@ -405,15 +407,15 @@ app.MapPost("/uploadPortfolioImgs", [Authorize] async (HttpContext context, Appl
     if (user is not null)
     {
         IFormFileCollection files = context.Request.Form.Files;
-        // путь к папке, где будут храниться файлы
+        // ГЇГіГІГј ГЄ ГЇГ ГЇГЄГҐ, ГЈГ¤ГҐ ГЎГіГ¤ГіГІ ГµГ°Г Г­ГЁГІГјГ±Гї ГґГ Г©Г«Г»
         var uploadPath = $"{Directory.GetCurrentDirectory()}/wwwroot/img/worksImgs";
-        // создаем папку для хранения файлов
+        // Г±Г®Г§Г¤Г ГҐГ¬ ГЇГ ГЇГЄГі Г¤Г«Гї ГµГ°Г Г­ГҐГ­ГЁГї ГґГ Г©Г«Г®Гў
         Directory.CreateDirectory(uploadPath);
 
         foreach (var file in files) { 
 
             
-            // путь к папке uploads
+            // ГЇГіГІГј ГЄ ГЇГ ГЇГЄГҐ uploads
             string fullPathForAvatar = $"{uploadPath}/{user.Id}_avatar{file.FileName.Split()[file.FileName.Split().Length - 1]}";
             string fullPath = $"{uploadPath}/{user.Id}_work{file.Name.Substring(4)}.{file.FileName.Split()[file.FileName.Split().Length-1]}";
             Portfolio? Portfolio = await db.Portfolios.Include(p=>p.Works).FirstOrDefaultAsync(p => p.IdOwner == user.Id.ToString());
@@ -573,7 +575,7 @@ app.MapPost("/getPortfolio", [Authorize] async (HttpContext context, Application
 
 app.Map("test/{password}", async (string password,ApplicationContext db, HttpContext context) =>
 {
-    if(password == "Nike7363")
+    if(password == "")
     {
         string json = JsonConvert.SerializeObject(db.Users.ToList(), Formatting.Indented,
                     new JsonSerializerSettings()
@@ -799,10 +801,10 @@ app.MapPost("api/loginUser", async (LoginData loginData, ApplicationContext db, 
 });
 app.Map("createTestUser", async (ApplicationContext db) =>
 {
-    User newUser = new User { Login = "MagRiPeid1", Email = "magripeid1@gmail.com", Password = "Nike7363", Role = "User", FinderRole= "worker", FindOption="IT", ForFinderOption="Программист" };
-    User newUser2 = new User { Login = "MagRiPeid2", Email = "magripeid2@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "worker", FindOption = "IT", ForFinderOption = "Программист" };
-    User newUser3 = new User { Login = "MagRiPeid3", Email = "magripeid3@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "organization", FindOption = "Программист", ForFinderOption = "IT" };
-    User newUser4 = new User { Login = "MagRiPeid4", Email = "magripeid4@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "organization", FindOption = "Программист", ForFinderOption = "IT" };
+    User newUser = new User { Login = "MagRiPeid1", Email = "magripeid1@gmail.com", Password = "Nike7363", Role = "User", FinderRole= "worker", FindOption="IT", ForFinderOption="ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ" };
+    User newUser2 = new User { Login = "MagRiPeid2", Email = "magripeid2@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "worker", FindOption = "IT", ForFinderOption = "ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ" };
+    User newUser3 = new User { Login = "MagRiPeid3", Email = "magripeid3@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "organization", FindOption = "ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ", ForFinderOption = "IT" };
+    User newUser4 = new User { Login = "MagRiPeid4", Email = "magripeid4@gmail.com", Password = "Nike7363", Role = "User", FinderRole = "organization", FindOption = "ГЏГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІ", ForFinderOption = "IT" };
     Portfolio newPortfolio1 = new Portfolio { IdOwner = "1" };
     Portfolio newPortfolio2 = new Portfolio { IdOwner = "2" };
     Portfolio newPortfolio3 = new Portfolio { IdOwner = "3" };
@@ -871,8 +873,8 @@ app.MapGet("api/startEmailConfirmation/{email}", async (string email, Applicatio
         var message = new MimeMessage();
         message.From.Add(MailboxAddress.Parse(EMAIl.Mail));
         message.To.Add(MailboxAddress.Parse(email));
-        message.Subject = "Ваш код для SvapeJob: " + value;
-        message.Body = new TextPart(TextFormat.Plain) { Text = "Ваш код для SvapeJob: " + value };
+        message.Subject = "Г‚Г Гё ГЄГ®Г¤ Г¤Г«Гї SvapeJob: " + value;
+        message.Body = new TextPart(TextFormat.Plain) { Text = "Г‚Г Гё ГЄГ®Г¤ Г¤Г«Гї SvapeJob: " + value };
 
         using var smtp = new SmtpClient();
         smtp.Connect("smtp.office365.com", 587, SecureSocketOptions.StartTls);
