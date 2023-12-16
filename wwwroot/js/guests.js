@@ -45,30 +45,35 @@ $(document).ready(function(){
         if(response.ok === true){
             const content = await response.json();
             console.log(content);
-            content.forEach(async function(element) {
-                const getProtfolio = await fetch(`getPortfolioForUser/${element.GuestName}`, {
-                    method: "GET",
-                    headers: {"Accept":"application/json"}
-                });
-                if(getProtfolio.ok === true){
-                    const portfolio = await getProtfolio.json();
-                    $('.mainRightChatList').append(`<a href="portfolio.html?id=${portfolio.Id}"><div class="chatBlock">
-            <div class="avatar-Name-Proffesion-LastMsg">
-                <div class="avatar"><img src="img/worksImgs/${portfolio.AvatarImg}" alt=""></div>
-                <div class="name-Profession-LastMsg">
-                    <div class="name-Profession">${portfolio.Name} (${portfolio.Profession})</div>
+            if(content.length==0){
+                $('.mainRightChatList').html("У вас еще нет гостей.").css({"min-height":"150px","font-size":"20px","text-align":"center","display":"flex","justify-content":"center","align-items":"center"});
+            }else{
+                content.forEach(async function(element) {
+                    const getProtfolio = await fetch(`getPortfolioForUser/${element.GuestName}`, {
+                        method: "GET",
+                        headers: {"Accept":"application/json"}
+                    });
+                    if(getProtfolio.ok === true){
+                        const portfolio = await getProtfolio.json();
+                        $('.mainRightChatList').append(`<a href="portfolio.html?id=${portfolio.Id}"><div class="chatBlock">
+                <div class="avatar-Name-Proffesion-LastMsg">
+                    <div class="avatar"><img src="img/worksImgs/${portfolio.AvatarImg}" alt=""></div>
+                    <div class="name-Profession-LastMsg">
+                        <div class="name-Profession">${portfolio.Name} (${portfolio.Profession})</div>
+                    </div>
+                </div>
+                <div class="dateAndTime">
+                    <div class="date"></div>
+                    <div class="time"></div>
                 </div>
             </div>
-            <div class="dateAndTime">
-                <div class="date"></div>
-                <div class="time"></div>
-            </div>
-        </div>
-        <div class="line"></div></a>`);
-                }
+            <div class="line"></div></a>`);
+                    }
+                    updateChatsImagesSizes();
+                });
                 updateChatsImagesSizes();
-            });
-            updateChatsImagesSizes();
+            }
+            
         }
     }
     getMyGuests();

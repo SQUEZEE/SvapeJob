@@ -69,44 +69,51 @@ $(document).ready(function(){
         if(response.ok===true){
             const content = await response.json();
             console.log(content);
-            content.forEach(async function(element){
-                let recipientName;
-                let recipientAvatar;
-                let recipientProfession;
-                let lastMessage;
-                let id;
-                if(element.firstParticipant==MYNAME){
-                    id=element.secondParticipant;
-                }else{
-                    id=element.firstParticipant;
-                }
-                const response2 = await fetch(`getUserAvatar/${id}`, {
-                    method: "GET",
-                    headers: {"Accept": "application/json"}
-                });
-                if(response2.ok == true){
-                    const content2 = await response2.json();
-                    recipientAvatar = content2.avatar;
-                    recipientName = content2.fullname;
-                    recipientProfession = content2.profession;
-                    
-                }
-                $('.mainRightChatList').append(`<a href="chat.html?recipient=${id}"><div class="chatBlock">
-                <div class="avatar-Name-Proffesion-LastMsg">
-                    <div class="avatar"><img src="img/worksImgs/${recipientAvatar}" alt=""></div>
-                    <div class="name-Profession-LastMsg">
-                        <div class="name-Profession">${recipientName} (${recipientProfession})</div>
-                        <div class="lastMsg">${element.lastMessage}</div>
+            if(content.length==0){
+                
+                $('.mainRightChatList').html("У вас еще нет диалогов.").css({"min-height":"150px","font-size":"20px","text-align":"center","display":"flex","justify-content":"center","align-items":"center"});
+            }else{
+                
+                content.forEach(async function(element){
+                    let recipientName;
+                    let recipientAvatar;
+                    let recipientProfession;
+                    let lastMessage;
+                    let id;
+                    if(element.firstParticipant==MYNAME){
+                        id=element.secondParticipant;
+                    }else{
+                        id=element.firstParticipant;
+                    }
+                    const response2 = await fetch(`getUserAvatar/${id}`, {
+                        method: "GET",
+                        headers: {"Accept": "application/json"}
+                    });
+                    if(response2.ok == true){
+                        const content2 = await response2.json();
+                        recipientAvatar = content2.avatar;
+                        recipientName = content2.fullname;
+                        recipientProfession = content2.profession;
+                        
+                    }
+                    $('.mainRightChatList').append(`<a href="chat.html?recipient=${id}"><div class="chatBlock">
+                    <div class="avatar-Name-Proffesion-LastMsg">
+                        <div class="avatar"><img src="img/worksImgs/${recipientAvatar}" alt=""></div>
+                        <div class="name-Profession-LastMsg">
+                            <div class="name-Profession">${recipientName} (${recipientProfession})</div>
+                            <div class="lastMsg">${element.lastMessage}</div>
+                        </div>
+                    </div>
+                    <div class="dateAndTime">
+                        <div class="date"></div>
+                        <div class="time"></div>
                     </div>
                 </div>
-                <div class="dateAndTime">
-                    <div class="date"></div>
-                    <div class="time"></div>
-                </div>
-            </div>
-            <div class="line"></div></a>`);
-            updateChatsImagesSizes();
-            });
+                <div class="line"></div></a>`);
+                updateChatsImagesSizes();
+                });
+            }
+            
             
         }
     }
