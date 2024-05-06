@@ -1,4 +1,4 @@
-Оob search platform
+Job search platform
 
 SvapeJob - Web site - Full REST API - Full Admin Panel
 
